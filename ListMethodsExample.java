@@ -2,12 +2,14 @@ import java.util.*;
 
 public class ListMethodsExample {
     public static void main(String[] args) {
-        List<String> names = new ArrayList<>();
+        ArrayList<String> names = new ArrayList<>();
         
         // 1. Add elements
         names.add("Alice");
         names.add("Bob");
         names.add("Charlie");
+
+        System.out.println(names);
 
         // 2. Insert at a specific index
         names.add(1, "David"); // ["Alice", "David", "Bob", "Charlie"]
